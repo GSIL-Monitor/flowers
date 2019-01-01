@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/my/my",
+    "pages/publish/publish",
+    "pages/supply/supply",
+    "pages/publish-supply/publish-supply",
+    "pages/publish-details/publish-details",
+    "pages/product/product",
+    "pages/info-manage/info-manage",
+    "pages/enterprise-details/enterprise-details",
+    "pages/position/position",
+    "pages/edit-info/edit-info"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "草木花卉之家",
+    "navigationBarTextStyle": "black"
+  },
+  "debug":true,
+  "plugins": {},
+  "tabBar": {
+    "selectedColor": "#05af22",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/asset/tab_icon/home.png",
+        "selectedIconPath": "/asset/tab_icon/home_activity.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "/asset/tab_icon/plus-square.png",
+        "selectedIconPath": "/asset/tab_icon/plus-square_activity.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "附近",
+        "iconPath": "/asset/tab_icon/local.png",
+        "selectedIconPath": "/asset/tab_icon/local_activity.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/asset/tab_icon/user.png",
+        "selectedIconPath": "/asset/tab_icon/user_activity.png"
+      }
+    ]
+  }
+}

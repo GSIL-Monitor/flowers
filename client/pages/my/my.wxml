@@ -1,0 +1,71 @@
+<!--my.wxml-->
+<!-- 个人信息 -->
+<view class="my-container">
+    <view class="userinfo">
+        <image class="userinfo-avatar" src="{{logged ? userInfo.avatarUrl : './user-unlogin.png'}}" background-size="cover"></image>
+        <view>
+            <button class="userinfo-nickname" wx:if="{{!logged}}" open-type="getUserInfo" bindgetuserinfo="doLogin">点击登录</button>
+            <text class="userinfo-nickname" wx:else>{{userInfo.nickName}}</text>
+        </view>
+    </view>
+    <view class='vip'>
+        <image src='./icon/vip1.png' />
+    </view>
+</view>
+<view class='my-info'>
+    <view class='info-mation' bindtap='toProduct'>
+        <text>25</text>
+        <text>产品</text>
+    </view>
+    <view class='info-mation'>
+        <text>5</text>
+        <text>收藏</text>
+    </view>
+    <view class='info-mation'>
+        <text>11</text>
+        <text>通知</text>
+    </view>
+</view>
+<!-- end -->
+<!-- 我的服务 -->
+<view class='service'>
+    <view class='service-title'>
+        <text>平台支持</text>
+    </view>
+    <view class='service-content'>
+        <view class='content-chile' bindtap='toInfo'>
+            <view class='img-container'>
+                <image src='./icon/company.png' />
+            </view>
+            <text>我的企业</text>
+        </view>
+        <view class='content-chile'>
+            <view class='img-container' style='background:#ffa68f;'>
+                <image src='./icon/vip-serve.png' />
+            </view>
+            <text>VIP服务</text>
+        </view>
+        <view class='content-chile'>
+            <view class='img-container' style='background:#fe7f86;'>
+                <image src='./icon/service.png' />
+            </view>
+            <text>联系客服</text>
+        </view>
+        <view class='content-chile'>
+            <view class='img-container' style='background:#fa9b35;'>
+                <image src='./icon/help.png' />
+            </view>
+            <text>帮助</text>
+        </view>
+    </view>
+</view>
+<!-- end -->
+
+
+<!-- end -->
+<!-- 上传图片测试 -->
+<!-- <view class="uploader">
+    <view class="uploader-text" bindtap="doUpload">
+        <text>上传图片</text>
+    </view>
+</view> -->

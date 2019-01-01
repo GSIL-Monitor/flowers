@@ -1,0 +1,205 @@
+/**index.wxss**/
+
+page {
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* 个人信息 */
+
+.my-container {
+  height: 300rpx;
+  background: #488156;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20rpx;
+}
+
+.userinfo {
+  height: 140rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.vip {
+  height: 80rpx;
+  width: 80rpx;
+  margin: 30rpx 20rpx;
+}
+
+.vip image {
+  height: 100%;
+  width: 100%;
+}
+
+.userinfo-avatar {
+  width: 120rpx;
+  height: 120rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  font-size: 32rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.userinfo-nickname::after {
+  border: none;
+}
+
+.my-info {
+  height: 150rpx;
+  width: 90%;
+  border-radius: 20rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: -75rpx auto 0 auto;
+}
+
+.info-mation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.info-mation text:first-child {
+  color: #488156;
+}
+
+/* end */
+
+/* 我的服务 */
+
+.service {
+  width: 90%;
+  height: 300rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20rpx auto;
+}
+
+.service-title {
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+}
+
+
+
+.service-title text {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.service-content {
+  height: 200rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.content-chile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  height: 90rpx;
+  width: 90rpx;
+  background: #ffa56a;
+  border-radius: 75rpx;
+  position: relative;
+}
+
+.content-chile image {
+  height: 50rpx;
+  width: 50rpx;
+  position: absolute;
+  top: 46%;
+  left: 45%;
+  margin-top: -20rpx;
+  margin-left: -20rpx;
+}
+
+.content-chile text {
+  margin-top: 10rpx;
+  font-size: 32rpx;
+}
+
+/* end */
+
+.uploader, .tunnel {
+  margin-top: 40rpx;
+  height: 140rpx;
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+}
+
+/*body  */
+
+.body {
+  width: 95%;
+  border: 1px dotted #ccc;
+  box-sizing: border-box;
+  margin: 40rpx auto;
+}
+
+.body view {
+  width: 100%;
+  font-size: 30rpx;
+  padding: 0 20rpx;
+  height: 80rpx;
+  line-height: 78rpx;
+  border-bottom: 1px dotted #bbb;
+  box-sizing: border-box;
+}
+
+.body view:last-child {
+  border: none;
+}
+
+.body-yaoqing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.body-yaoqing text:last-child {
+  font-size: 26rpx;
+  color: #59595a;
+}
+
+/*end  */

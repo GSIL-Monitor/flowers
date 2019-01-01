@@ -1,0 +1,22 @@
+#############
+## Node
+#############
+# Packages
+node_modules/
+.deploy_git/
+
+#############
+## Java
+#############
+bin/
+
+
+
+
+#Mr Developer
+.mr.developer.cfg
+.vscode/settings.json
+
+# 其他
+document/
+public/

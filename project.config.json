@@ -1,0 +1,99 @@
+{
+	"client": "client/",
+	"svr": "server/",
+	"miniprogramRoot": "client/",
+	"qcloudRoot": "server/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": false
+	},
+	"appid": "wxe7864b453f26e33a",
+	"projectname": "Alarmy",
+	"compileType": "miniprogram",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 6,
+			"list": [
+				{
+					"id": 0,
+					"name": "首页",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "发布信息",
+					"pathName": "pages/publish/publish",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "供应信息",
+					"pathName": "pages/supply/supply",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "发布供应信息",
+					"pathName": "pages/publish-supply/publish-supply",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "供应信息详情",
+					"pathName": "pages/publish-details/publish-details",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "公司详情",
+					"pathName": "pages/enterprise-details/enterprise-details",
+					"query": ""
+				},
+				{
+					"id": 6,
+					"name": "企业信息编辑",
+					"pathName": "pages/edit-info/edit-info",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/my/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "企业信息管理",
+					"pathName": "pages/info-manage/info-manage",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "产品中心",
+					"pathName": "pages/product/product",
+					"query": ""
+				}
+			]
+		}
+	}
+}
